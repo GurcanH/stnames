@@ -1,0 +1,32 @@
+{
+  "name": "stnames",
+  "version": "1.0.0",
+  "description": "St Names Test",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha src/index.test.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GurcanH/stnames.git"
+  },
+  "keywords": [
+    "star",
+    "wars",
+    "names",
+    "new"
+  ],
+  "author": "Gurcan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GurcanH/stnames/issues"
+  },
+  "homepage": "https://github.com/GurcanH/stnames#readme",
+  "dependencies": {
+    "unique-random-array": "^2.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
